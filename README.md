@@ -11,17 +11,21 @@ Building this project requires
 - gcc
 - cmake
 
-If you want to contribute to the project just open DupeFinder in qtcreator and get started. 
+If you want to contribute to the project just open DupeFinder in qtcreator and get started.  
 If you simply want to build a version continue.
 
 Go to build directory :  
 `cd DupeFinder/src/build`  
+
 Make a folder for your <VERSION string> We will use Desktop-Release. See Optional Versions at the bottom and replace if you need.  
 `mkdir Desktop-Release`  
+
 Go to the new directory  
 `cd Desktop-Release`  
+
 Initialize cmake in the current directory  
 `cmake build -DCMAKE_BUILD_TYPE=Desktop-Release ../../`  
+
 Finally build with cmake  
 `cmake --build .`  
 
