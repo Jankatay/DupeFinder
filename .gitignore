@@ -23,6 +23,11 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+Desktop-Debug/
+Desktop-Profile/
+Desktop-Release/
+Desktop-MinSizeRel/
+Desktop-RelWithDebInfo/
 MANIFEST
 
 # PyInstaller
